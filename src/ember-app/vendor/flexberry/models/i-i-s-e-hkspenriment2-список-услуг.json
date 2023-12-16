@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISEHkspenriment2СписокУслуг",
+  "modelName": "i-i-s-e-hkspenriment2-список-услуг",
+  "className": "СписокУслуг",
+  "nameSpace": "IIS.EHkspenriment2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокУслугE",
+      "modelName": "i-i-s-e-hkspenriment2-список-услуг",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СписокУслугL",
+      "modelName": "i-i-s-e-hkspenriment2-список-услуг",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

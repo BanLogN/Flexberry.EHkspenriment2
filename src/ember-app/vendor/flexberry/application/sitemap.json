@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "E hkspenriment2",
+  "applicationTitle": "E hkspenriment2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "e-hkspenriment2",
+      "caption": "EHkspenriment2",
+      "title": "EHkspenriment2",
+      "children": [
+        {
+          "link": "i-i-s-e-hkspenriment2-прайс-l",
+          "menuName": null,
+          "caption": "Прайс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-e-hkspenriment2-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-e-hkspenriment2-список-услуг-l",
+          "menuName": null,
+          "caption": "Список услуг",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

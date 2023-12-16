@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISEHkspenriment2Прайс",
+  "modelName": "i-i-s-e-hkspenriment2-прайс",
+  "className": "Прайс",
+  "nameSpace": "IIS.EHkspenriment2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "цена",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокУслуг",
+      "relatedTo": "i-i-s-e-hkspenriment2-список-услуг",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПрайсE",
+      "modelName": "i-i-s-e-hkspenriment2-прайс",
+      "attrs": [
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Имя",
+          "lookupValueField": "имя",
+          "relationName": "СписокУслуг",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Список услуг",
+          "name": "списокУслуг",
+          "relatedTo": "i-i-s-e-hkspenriment2-список-услуг",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ПрайсL",
+      "modelName": "i-i-s-e-hkspenriment2-прайс",
+      "attrs": [
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СписокУслуг",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "списокУслуг",
+          "relatedTo": "i-i-s-e-hkspenriment2-список-услуг",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

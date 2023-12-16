@@ -1,0 +1,1 @@
+docker-compose -p ehkspenriment2 up -d

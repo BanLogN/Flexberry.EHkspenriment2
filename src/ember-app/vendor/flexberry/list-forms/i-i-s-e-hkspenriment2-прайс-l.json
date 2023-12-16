@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-e-hkspenriment2-прайс-e",
+  "editForm": "i-i-s-e-hkspenriment2-прайс-e",
+  "external": false,
+  "caption": "Прайс",
+  "name": "IISEHkspenriment2ПрайсL",
+  "className": "ПрайсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-e-hkspenriment2-прайс",
+      "modelProjection": "ПрайсL"
+    }
+  ]
+}
